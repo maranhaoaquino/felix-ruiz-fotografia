@@ -1,6 +1,9 @@
 import React from "react";
 
-const Home = () => {
+const Home = ({globalData}) => {
+
+  console.log(globalData);
+  
   return (
     <div>Home page</div>
   );
