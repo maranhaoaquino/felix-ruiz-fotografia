@@ -1,4 +1,5 @@
 import App from "next/app";
+import '../bemit/bemit.scss';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

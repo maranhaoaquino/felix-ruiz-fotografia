@@ -1,4 +1,5 @@
 import React from "react";
+import Slider from "../bemit/09-components/c-slider/c-slider.js";
 
 const Home = ({posts, globalData}) => {
 
@@ -6,7 +7,10 @@ const Home = ({posts, globalData}) => {
   console.log(globalData);
   
   return (
-    <div>Home page</div>
+    <div>
+      <div>Home page</div>
+      <Slider posts={posts} />
+    </div>
   );
 }
 
