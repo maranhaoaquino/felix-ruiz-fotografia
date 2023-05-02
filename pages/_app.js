@@ -1,4 +1,5 @@
 import App from "next/app";
+import 'normalize.css'
 import '../bemit/bemit.scss';
 
 function MyApp({ Component, pageProps }) {

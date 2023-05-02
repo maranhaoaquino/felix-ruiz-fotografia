@@ -1,0 +1,39 @@
+//===========================
+//SETTINGS
+//===========================
+
+//COLORS
+
+$color-black: #000000;
+$color-white: #ffffff;
+
+//RESPONSIVE
+
+    //DESKTOP
+
+        $screen-desktop-xxl: 2560px;
+        $screen-desktop-xl: 1920px;
+        $screen-desktop-lg: 1600px;
+        $screen-desktop-md: 1440px;
+        $screen-desktop-sm: 1366px;
+        $screen-desktop-xs: 1280px;
+
+    //TABLET
+
+        $screen-tablet-md: 1024px;
+        $screen-tablet-sm: 768px;
+
+    //MOBILE
+
+        $screen-mobile-md: 480px;
+        $screen-mobile-sm: 320px;
+
+    //BREAKPOINTS
+
+        $break-tablet: 610px;
+        $break-desktop: 1190px;
+
+    //Ranges
+    //Mobile 0px ate 610px
+    //Tablet 611px ate 1190px
+    //desktop 1191px ate infinito
